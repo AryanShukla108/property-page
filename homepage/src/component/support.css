@@ -1,0 +1,54 @@
+.setting {
+    position: relative;
+    top: 20vh;
+    background-color: lightblue;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(67, 63, 63);
+
+}
+
+.more {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.logos {
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: blue;
+}
+
+.home {
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.graph{
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}

@@ -1,0 +1,120 @@
+.slider {
+    position: relative;
+    top: 10vh;
+    /* width: 100vh;
+    height: 100vh;
+    left: 50%;
+    transform: translateX(-50%); */
+    
+}
+
+.one{
+    position: absolute;
+    left: 1%;
+    bottom: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.two{
+    position: absolute;
+    bottom: 100%;
+    right: 2%;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-bhai{
+    margin-bottom: 40px;
+}
+
+.big-h3{
+    font-size: 15px;
+    padding: 5px ;
+    font-weight: bold;
+}
+
+.small-h5{
+    font-size: 10px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.h5-logo{
+    font-size: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+/* .slider2 {
+    
+    width: 100%;
+    height: 100%;
+    top: 8%;
+    
+}
+
+.first{
+    width: 100%;
+    
+}
+
+.secound {
+    width: 100%;
+}
+
+.third {
+    width: 100%;
+}
+
+.four {
+    width: 100%;
+}
+
+.five {
+    width: 100%;
+} */
+
+
+
+
+

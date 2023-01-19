@@ -1,0 +1,68 @@
+.container{
+    position: relative;
+    top: 30vh;
+    width: 80%;
+    height: 70vh;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.container h3{
+    color: rgb(64, 109, 124);
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.container h2{
+    color:  rgb(16, 15, 15);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    
+}
+
+.wrapper .form-page{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.wrapper .form-page input{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+}
+
+.wrapper .form-page label{
+    font-size: 18px;
+}
+
+.container  input[type="submit"]{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    background: rgb(56, 56, 148);
+    color: rgb(41, 2, 2);
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
